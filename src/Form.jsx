@@ -40,7 +40,7 @@ export default function Form() {
         value={formData.username}
         onChange={handleChange}
         id="username"
-        name="username"
+        name="username" //this attribute for fetching the event.target.name
       ></input>
       <br></br>
       <label htmlFor="gmail">Gmail</label>

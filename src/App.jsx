@@ -1,10 +1,10 @@
 import React from 'react';
-import Form from './Form';
+import CommentsForm from './CommentsForm';
 
 function App() {
     return (
         <div>
-            <Form></Form>
+            <CommentsForm></CommentsForm>
         </div>
     );
 }
