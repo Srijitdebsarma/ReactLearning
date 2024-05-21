@@ -1,10 +1,10 @@
 import React from 'react';
-import Lottery from './Lottery';
+import Form from './Form';
 
 function App() {
     return (
         <div>
-            <Lottery n={5} winningSum={20}/>
+            <Form></Form>
         </div>
     );
 }
